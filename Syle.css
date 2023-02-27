@@ -1,0 +1,271 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.hero{
+    height: 100%;
+    background-size: cover;
+}
+
+.foto{
+    padding-left: 60%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #6970aa;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+.logo{
+    max-height: 120px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #ffffff;
+    position: relative;
+    padding: 5px 0;
+}
+nav ul li a:hover{
+    color: #2c3364;
+}
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #2c3364;
+    transition: .3s;
+    bottom: 0;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+.btn{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 25px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #818cd1;
+    border: 2px solid #6970aa;
+}
+.btn:hover{
+    background: transparent;
+    border-color: #818cd1;
+    color: #818cd1;
+}
+.content{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+.content .title{
+    color: #1f1f25;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content h1{
+    color: #1f1f25;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+}
+.content h1 span{
+    color: #6970aa;
+}
+.content p{
+    width: 55%;
+    color: #757575;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.contact{
+   color: #6970aa;
+}
+.contact h2 {
+    padding-top:0px;
+    color: #1f1f25;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 500px; 
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact table {
+    margin-left: 375px; 
+    color: #6970aa; 
+    padding-left: 100px;
+}
+.contact table tr th {
+  text-align: left;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+div table tr td {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  text-align: left;
+}
+.contact {
+  color: #6970aa;
+  background-color: white;
+}
+.contact h2 {
+  padding-top: 50px;
+  margin-top: 0px;
+}
+.contact table {
+  color: #6970aa;
+  padding-bottom: 100px;
+}
+.contact table tr td a {
+    color:#6970aa; 
+    font-weight:500;
+}
+.education h1 {
+    padding-top:0px;
+    color: #1f1f25;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 0px; 
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.education {
+    font-size: 20px;
+    text-transform: inherit;
+    background-color: white;
+    display: block;
+    color:#757575 ;
+    padding-top: 30px;
+    padding-left: 400px;
+  }
+  .education li {
+    list-style-type: upper-roman;
+  }
+  .education li p {
+    padding: 5px;
+    margin: 10px;
+  }
+  .education li p span {
+    font-weight: 900;
+  }  
+  .jadwal h1 {
+    padding-top:0px;
+    color: #1f1f25;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 400px; 
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .jadwal h3 {
+    font-size: 20px;
+    margin-left: 580px;
+    margin-bottom: 20px; 
+    text-transform: inherit;
+    background-color: white;
+    display: block;
+    color:#757575 ;
+  }
+  .schedule table {
+    color:#757575 ;
+  }
+.aktivitas h1 {
+    padding-top:0px;
+    color: #1f1f25;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 500px; 
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .aktivitas h2{
+    font-size: 20px;
+    margin-left: 500px;
+    margin-bottom: 20px; 
+    text-transform: inherit;
+    background-color: white;
+    display: block;
+    color:#757575 ;
+  }
+  .activities {
+    margin-left: 500px;
+    color:#757575 ;
+  }
+  .about h1 {
+    padding-top:0px;
+    color: #1f1f25;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 500px; 
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .about h2{
+    font-size: 20px;
+    margin-left: 520px;
+    margin-bottom: 20px; 
+    text-transform: inherit;
+    background-color: white;
+    display: block;
+    color:#757575 ;
+  }
+  .personalinformation {
+    margin-left: 500px;
+    color:#757575 ;
+  }
+  
