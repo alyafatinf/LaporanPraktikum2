@@ -1,0 +1,42 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>hi! this is me - Alya</title>
+    <!----CSS link----->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+      <nav>
+        <img src="image/logo.png" class="logo">
+        <ul>
+          <li><a href="Homepage.html">Home</a></li>
+          <li class="active"><a href="Education.html">Education</a></li>
+          <li><a href="Schedule.html">Schedule</a></li>
+          <li><a href="Activities.html">Activities</a></li>
+          <li><a href="About.html">About</a></li>
+        </ul>
+      </nav>
+
+      
+
+    <div class="education">
+      <h1>Education History</h1>
+      <ul>
+        <li>
+          <p><span>Primary School</span> (2009-2015) <br />SDN Kumitir 1</p>
+        </li>
+        <li>
+          <p><span>Junior High School</span> (2015-2018) <br />SMPN 1 Jatirejo</p>
+        </li>
+        <li>
+          <p><span>Senior High School</span> (2018-2021) <br />SMAN 1 Sooko - IPA</p>
+        </li>
+        <li>
+          <p><span>College</span> (2021-Now) <br />UPN Veteran Jawa Timur - Sistem Informasi</p>
+        </li>
+      </ul>
+    </div>
+    
+  </body>
+</html>
